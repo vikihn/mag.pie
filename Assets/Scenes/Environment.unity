@@ -5481,7 +5481,7 @@ GameObject:
   - component: {fileID: 479772050}
   - component: {fileID: 479772049}
   - component: {fileID: 479772048}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Erde
   m_TagString: Untagged
   m_Icon: {fileID: 0}

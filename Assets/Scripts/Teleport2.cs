@@ -30,14 +30,20 @@ public class Teleport2 : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        entered = true;
-        Debug.Log("Entered the Collider");
+        if (other.tag == "Player")
+        {
+            entered = true;
+            Debug.Log("Entered the Collider");
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        entered = false;
-        Debug.Log("Left the Collider");
+        if (other.tag == "Player")
+        {
+            entered = false;
+            Debug.Log("Left the Collider");
+        }
     }
 
 }

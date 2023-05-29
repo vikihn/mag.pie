@@ -56,8 +56,8 @@ public class KillPlayer : MonoBehaviour
                 heart1.gameObject.SetActive(false);
                 heart2.gameObject.SetActive(false);
                 heart3.gameObject.SetActive(false);
-                //gameOver.SetActive(true);
-                //Time.timeScale = 0;
+                gameOver.SetActive(true);
+                Time.timeScale = 0;
                 break;
         }
     }
@@ -72,8 +72,8 @@ public class KillPlayer : MonoBehaviour
 
         if (lifeplayer == 0)
         {
-            Scene currentScene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(currentScene.name);
+            //Scene currentScene = SceneManager.GetActiveScene();
+            //SceneManager.LoadScene(currentScene.name);
         }
     }
 }

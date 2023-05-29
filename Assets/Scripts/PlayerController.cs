@@ -10,9 +10,10 @@ public class PlayerController : MonoBehaviour
     public float raycastDistance = 0.1f;
     public LayerMask groundLayer;
 
-    Rigidbody2D rb;
     public int speed;
+    private float originalSpeed;
     Vector2 movement;
+    Rigidbody2D rb;
     SpriteRenderer spriteRenderer;
     private bool isGrounded;
     
@@ -22,6 +23,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        originalSpeed = speed;
     }
 
 
@@ -67,6 +69,18 @@ public class PlayerController : MonoBehaviour
         return hit.collider != null;
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("SlowDownItem"))
+        {
+            speed -= 1;
+        }
+
+        if (collision.CompareTag("SpeedUpItem"))
+        {
+            speed += 3;
+        }
+    }
 }
 
 

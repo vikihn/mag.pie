@@ -9,6 +9,7 @@ public class ButtonBehaviour : MonoBehaviour
     public void ResetTheGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
         Debug.Log("Button clicked");
     }
 }

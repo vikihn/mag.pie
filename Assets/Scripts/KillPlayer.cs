@@ -9,6 +9,7 @@ public class KillPlayer : MonoBehaviour
     public GameObject heart1, heart2, heart3, gameOver;
     public Transform respwanPoint;
 
+
     int lifeplayer;
 
     // Start is called before the first frame update
@@ -57,7 +58,7 @@ public class KillPlayer : MonoBehaviour
                 heart2.gameObject.SetActive(false);
                 heart3.gameObject.SetActive(false);
                 gameOver.SetActive(true);
-                Time.timeScale = 0;
+                //Time.timeScale = 0;
                 break;
         }
     }

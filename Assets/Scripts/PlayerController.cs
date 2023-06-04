@@ -84,6 +84,7 @@ public class PlayerController : MonoBehaviour
         return hit.collider != null;
     }
 
+    //Items Collision
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("SlowDownItem"))
@@ -96,4 +97,6 @@ public class PlayerController : MonoBehaviour
             speed += 3;
         }
     }
+
+
 }

@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - SpeedUpItem
+  - SlowDownItem
+  - turn
+  - FeetPosition
+  - WeakPoint
   layers:
   - Default
   - TransparentFX

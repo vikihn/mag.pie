@@ -4958,8 +4958,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.3211362, y: -6.06166}
-  m_Size: {x: 8.828484, y: 15.201056}
+  m_Offset: {x: 3.0840204, y: -6.06166}
+  m_Size: {x: 12.354251, y: 15.201056}
   m_Direction: 0
 --- !u!1 &272722927
 GameObject:
@@ -6529,6 +6529,7 @@ GameObject:
   - component: {fileID: 426695775}
   - component: {fileID: 426695774}
   - component: {fileID: 426695776}
+  - component: {fileID: 426695777}
   m_Layer: 0
   m_Name: mag_pie
   m_TagString: Player
@@ -6618,7 +6619,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1.5
+  m_GravityScale: 1.6
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -6655,8 +6656,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.67275554, y: -1.9412304}
-  m_Size: {x: 20.004547, y: 15.014258}
+  m_Offset: {x: 0.10234337, y: -1.6505626}
+  m_Size: {x: 20.585941, y: 13.657854}
   m_Direction: 1
 --- !u!114 &426695776
 MonoBehaviour:
@@ -6675,6 +6676,26 @@ MonoBehaviour:
   heart3: {fileID: 29664811}
   gameOver: {fileID: 401054004}
   respwanPoint: {fileID: 1468595196}
+--- !u!95 &426695777
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426695768}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4b30a14cfe30e4ed29a62bddf8f3b930, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &479772047
 GameObject:
   m_ObjectHideFlags: 0

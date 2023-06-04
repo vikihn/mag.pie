@@ -9,18 +9,21 @@ public class PlayerController : MonoBehaviour
     public float jumpForce = 5f;
     public float raycastDistance = 0.1f;
     public LayerMask groundLayer;
-
     public int speed;
+
     private float originalSpeed;
     Vector2 movement;
     Rigidbody2D rb;
     SpriteRenderer spriteRenderer;
     private bool isGrounded;
+
+    private Animator anim;
     
 
 
     private void Start()
     {
+        anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         originalSpeed = speed;
@@ -42,8 +45,20 @@ public class PlayerController : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 // Apply jump force
+                anim.SetTrigger("jump");
                 rb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
             }
+
+        }
+
+        if (x == 0)
+        {
+            anim.SetBool("isWalking", false);
+        }
+
+        else
+        {
+            anim.SetBool("isWalking", true);
         }
 
         if (movement.x > 0) { spriteRenderer.flipX = false; }

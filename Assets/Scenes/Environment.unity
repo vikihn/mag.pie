@@ -6316,6 +6316,7 @@ GameObject:
   - component: {fileID: 420590007}
   - component: {fileID: 420590006}
   - component: {fileID: 420590005}
+  - component: {fileID: 420590009}
   m_Layer: 0
   m_Name: Wurm (3)
   m_TagString: SpeedUpItem
@@ -6432,6 +6433,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &420590009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420590003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a619f3a62551485e8254bb2ffa08934, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valuablesound: {fileID: 8300000, guid: 3e89ca5ef18b84915a3c6713c9e4826c, type: 3}
 --- !u!1 &426695768
 GameObject:
   m_ObjectHideFlags: 0
@@ -9637,6 +9651,7 @@ GameObject:
   - component: {fileID: 937340891}
   - component: {fileID: 937340889}
   - component: {fileID: 937340894}
+  - component: {fileID: 937340895}
   m_Layer: 0
   m_Name: Wurm (2)
   m_TagString: SpeedUpItem
@@ -9753,6 +9768,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d785bde94e55b498db0428262486d76d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &937340895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937340888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a619f3a62551485e8254bb2ffa08934, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valuablesound: {fileID: 8300000, guid: 3e89ca5ef18b84915a3c6713c9e4826c, type: 3}
 --- !u!1 &939908315
 GameObject:
   m_ObjectHideFlags: 0
@@ -13494,6 +13522,7 @@ GameObject:
   - component: {fileID: 1640931966}
   - component: {fileID: 1640931964}
   - component: {fileID: 1640931968}
+  - component: {fileID: 1640931969}
   m_Layer: 0
   m_Name: Wurm (1)
   m_TagString: SpeedUpItem
@@ -13610,6 +13639,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d785bde94e55b498db0428262486d76d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1640931969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640931962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a619f3a62551485e8254bb2ffa08934, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valuablesound: {fileID: 8300000, guid: 3e89ca5ef18b84915a3c6713c9e4826c, type: 3}
 --- !u!1 &1652131883
 GameObject:
   m_ObjectHideFlags: 0
@@ -16263,7 +16305,7 @@ GameObject:
   - component: {fileID: 1925513257}
   - component: {fileID: 1925513256}
   m_Layer: 5
-  m_Name: Button
+  m_Name: RestartButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

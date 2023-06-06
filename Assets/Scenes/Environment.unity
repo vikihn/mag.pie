@@ -378,6 +378,7 @@ GameObject:
   - component: {fileID: 48528742}
   - component: {fileID: 48528743}
   - component: {fileID: 48528744}
+  - component: {fileID: 48528745}
   m_Layer: 3
   m_Name: Wand-2
   m_TagString: Untagged
@@ -4776,6 +4777,32 @@ PolygonCollider2D:
       - {x: -11.37, y: 8.79}
       - {x: -11.389999, y: 8.7699995}
   m_UseDelaunayMesh: 0
+--- !u!61 &48528745
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48528741}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 14.21726, y: -14.920095}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 76.8, y: 43.2}
+    newSize: {x: 76.799995, y: 43.199997}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 33.894352, y: 0.8563881}
+  m_EdgeRadius: 0
 --- !u!1 &89169580
 GameObject:
   m_ObjectHideFlags: 0
@@ -10707,7 +10734,6 @@ GameObject:
   - component: {fileID: 1258815949}
   - component: {fileID: 1258815951}
   - component: {fileID: 1258815952}
-  - component: {fileID: 1258815957}
   - component: {fileID: 1258815953}
   - component: {fileID: 1258815954}
   - component: {fileID: 1258815955}
@@ -10727,7 +10753,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1258815948}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.22, y: -13.52, z: -3}
+  m_LocalPosition: {x: -1.22, y: -12.88, z: -3}
   m_LocalScale: {x: 0.13, y: 0.13, z: 0.13}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -10870,22 +10896,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4523204d17ba421b8fecae3aa23638e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!70 &1258815957
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1258815948}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -8.463378, y: 7.635489}
-  m_Size: {x: 4.100123, y: 18.937643}
-  m_Direction: 0
 --- !u!1 &1276651884
 GameObject:
   m_ObjectHideFlags: 0

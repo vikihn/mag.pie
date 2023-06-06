@@ -66,7 +66,7 @@ public class KillPlayer : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Enemy"))
+        if (other.gameObject.CompareTag("Enemy") && !CatSleep.sleep)
         {
             lifeplayer = lifeplayer - 1;
             this.transform.position = respwanPoint.position;

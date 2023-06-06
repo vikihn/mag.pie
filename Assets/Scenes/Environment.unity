@@ -10710,6 +10710,7 @@ GameObject:
   - component: {fileID: 1258815953}
   - component: {fileID: 1258815954}
   - component: {fileID: 1258815955}
+  - component: {fileID: 1258815956}
   m_Layer: 0
   m_Name: cat_3
   m_TagString: Enemy
@@ -10725,10 +10726,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1258815948}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.25, y: -13.52, z: -3}
+  m_LocalPosition: {x: -1.22, y: -13.52, z: -3}
   m_LocalScale: {x: 0.13, y: 0.13, z: 0.13}
   m_ConstrainProportionsScale: 1
-  m_Children: []
+  m_Children:
+  - {fileID: 1340530448}
   m_Father: {fileID: 696370690}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10797,8 +10799,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.15673853, y: 5.1772113}
-  m_Size: {x: 26.865978, y: 18.169075}
+  m_Offset: {x: -0.15673883, y: 2.7043529}
+  m_Size: {x: 26.865982, y: 13.223425}
   m_Direction: 1
 --- !u!50 &1258815953
 Rigidbody2D:
@@ -10855,6 +10857,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1258815956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258815948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4523204d17ba421b8fecae3aa23638e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1276651884
 GameObject:
   m_ObjectHideFlags: 0
@@ -11425,6 +11439,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1338642357}
   m_CullTransparentMesh: 1
+--- !u!1 &1340530447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1340530448}
+  - component: {fileID: 1340530449}
+  m_Layer: 0
+  m_Name: Cat3_collider
+  m_TagString: WeakPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1340530448
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340530447}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.53, y: 15.62, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1258815949}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &1340530449
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340530447}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.1869686, y: -3.392406}
+  m_Size: {x: 13.108287, y: 2.1283147}
+  m_Direction: 1
 --- !u!1 &1349035068
 GameObject:
   m_ObjectHideFlags: 0

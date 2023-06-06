@@ -30,5 +30,11 @@ public class Footsteps : MonoBehaviour
         {
             jumpSound.enabled = false;
         }
+
+        if (Time.timeScale == 0f)
+        {
+            jumpSound.enabled = false;
+            footstepsSound.enabled = false;
+        }
     }
 }

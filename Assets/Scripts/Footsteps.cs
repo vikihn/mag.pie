@@ -6,6 +6,11 @@ public class Footsteps : MonoBehaviour
 {
     public AudioSource footstepsSound, jumpSound;
 
+    private void Start()
+    {
+        jumpSound.enabled = true;
+    }
+
     private void Update()
     {
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) ||
@@ -22,14 +27,16 @@ public class Footsteps : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Space))
         {
-            jumpSound.enabled = true;
             footstepsSound.enabled = false;
+            jumpSound.Play();
         }
 
+        /*
         else
         {
             jumpSound.enabled = false;
         }
+        */
 
         if (Time.timeScale == 0f)
         {

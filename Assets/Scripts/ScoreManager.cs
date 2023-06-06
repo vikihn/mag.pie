@@ -25,6 +25,7 @@ public class ScoreManager : MonoBehaviour
         if (score == 14)
         {
             gameWon.SetActive(true);
+            Time.timeScale = 0f;
         }
     }
 }

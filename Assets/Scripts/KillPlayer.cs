@@ -15,6 +15,7 @@ public class KillPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1.0f;
         lifeplayer = 3;
 
         heart1.gameObject.SetActive(true);
@@ -58,7 +59,7 @@ public class KillPlayer : MonoBehaviour
                 heart2.gameObject.SetActive(false);
                 heart3.gameObject.SetActive(false);
                 gameOver.SetActive(true);
-                //Time.timeScale = 0;
+                Time.timeScale = 0f;
                 break;
         }
     }

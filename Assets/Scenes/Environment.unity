@@ -6068,8 +6068,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.35, y: -1.6505626}
-  m_Size: {x: 20.585941, y: 13.657854}
+  m_Offset: {x: -1.6361113, y: -1.6505623}
+  m_Size: {x: 17.17057, y: 13.657975}
   m_Direction: 1
 --- !u!114 &426695776
 MonoBehaviour:
@@ -10707,6 +10707,7 @@ GameObject:
   - component: {fileID: 1258815949}
   - component: {fileID: 1258815951}
   - component: {fileID: 1258815952}
+  - component: {fileID: 1258815957}
   - component: {fileID: 1258815953}
   - component: {fileID: 1258815954}
   - component: {fileID: 1258815955}
@@ -10799,8 +10800,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.15673883, y: 2.7043529}
-  m_Size: {x: 26.865982, y: 13.223425}
+  m_Offset: {x: 1.2832052, y: 3.2069173}
+  m_Size: {x: 23.986195, y: 14.228606}
   m_Direction: 1
 --- !u!50 &1258815953
 Rigidbody2D:
@@ -10869,6 +10870,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4523204d17ba421b8fecae3aa23638e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!70 &1258815957
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258815948}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -8.463378, y: 7.635489}
+  m_Size: {x: 4.100123, y: 18.937643}
+  m_Direction: 0
 --- !u!1 &1276651884
 GameObject:
   m_ObjectHideFlags: 0
@@ -11464,7 +11481,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340530447}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.53, y: 15.62, z: 0}
+  m_LocalPosition: {x: 9.03, y: 15.62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11484,8 +11501,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.1869686, y: -3.392406}
-  m_Size: {x: 13.108287, y: 2.1283147}
+  m_Offset: {x: -1.0746334, y: -3.9578178}
+  m_Size: {x: 5.3183775, y: 0.99752146}
   m_Direction: 1
 --- !u!1 &1349035068
 GameObject:

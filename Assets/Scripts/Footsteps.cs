@@ -25,10 +25,16 @@ public class Footsteps : MonoBehaviour
             footstepsSound.enabled = false;
         }
 
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             footstepsSound.enabled = false;
             jumpSound.Play();
+        }
+
+        if (Input.GetKey(KeyCode.Space))
+        {
+            footstepsSound.enabled = false;
+            //jumpSound.Play();
         }
 
         /*

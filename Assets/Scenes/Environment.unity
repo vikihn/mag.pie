@@ -5383,7 +5383,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 320510138}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.18, y: 0.74, z: -0.03982081}
+  m_LocalPosition: {x: 26.56, y: 1.36, z: -0.03982081}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5647,7 +5647,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 341468543}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 33.76, y: 0.8, z: -0.03982081}
+  m_LocalPosition: {x: 33.22, y: 1.34, z: -0.03982081}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7192,7 +7192,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0
+  m_text: 0 of 14 Valuables
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: df30d032ee32645d98ce03fd7a00aea6, type: 2}
   m_sharedMaterial: {fileID: -3529530982018081116, guid: df30d032ee32645d98ce03fd7a00aea6, type: 2}
@@ -7286,8 +7286,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26, y: 388}
-  m_SizeDelta: {x: 334.9107, y: 87.7931}
+  m_AnchoredPosition: {x: 78.72046, y: 385.2151}
+  m_SizeDelta: {x: 473.4274, y: 87.793}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &579962198
 GameObject:
@@ -9255,8 +9255,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetItem: {fileID: 1099477499}
-  objectA: {fileID: 0}
-  objectB: {fileID: 0}
+  objectA: {fileID: 924834993}
+  objectB: {fileID: 924834993}
 --- !u!1 &925279307
 GameObject:
   m_ObjectHideFlags: 0
@@ -9453,8 +9453,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetItem: {fileID: 939908315}
-  objectA: {fileID: 0}
-  objectB: {fileID: 0}
+  objectA: {fileID: 931659153}
+  objectB: {fileID: 931659153}
 --- !u!1 &933346656
 GameObject:
   m_ObjectHideFlags: 0
@@ -16746,8 +16746,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetItem: {fileID: 1517277026}
-  objectA: {fileID: 0}
-  objectB: {fileID: 0}
+  objectA: {fileID: 1865065488}
+  objectB: {fileID: 1865065488}
 --- !u!1 &1889530651
 GameObject:
   m_ObjectHideFlags: 0

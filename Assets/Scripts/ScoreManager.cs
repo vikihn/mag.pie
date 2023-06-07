@@ -14,13 +14,13 @@ public class ScoreManager : MonoBehaviour
     {
         score = 0f;
         gameWon.SetActive(false);
-        textscore.text = score.ToString() + " Valuables";
+        textscore.text = score.ToString() + " of 14 Valuables";
     }
 
     // Update is called once per frame
     void Update()
     {
-        textscore.text = score.ToString() + " Valuables";
+        textscore.text = score.ToString() + " of 14 Valuables";
 
         if (score == 14)
         {

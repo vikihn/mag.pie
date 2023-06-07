@@ -10,6 +10,7 @@ TagManager:
   - turn
   - FeetPosition
   - WeakPoint
+  - WeakPointTwo
   layers:
   - Default
   - TransparentFX

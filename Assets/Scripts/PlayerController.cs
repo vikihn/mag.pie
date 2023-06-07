@@ -96,9 +96,14 @@ public class PlayerController : MonoBehaviour
         {
             speed += 3;
         }
+
         if (collision.CompareTag("WeakPoint"))
         {
             CatSleep.sleep = true;
+        }
+        if (collision.CompareTag("WeakPointTwo"))
+        {
+            CatSleep2.sleep2 = true;
         }
     }
 

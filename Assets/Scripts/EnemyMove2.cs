@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyMove : MonoBehaviour
+public class EnemyMove2 : MonoBehaviour
 {
     public float speed;
     public bool MoveRight;
@@ -10,7 +10,7 @@ public class EnemyMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!CatSleep.sleep)
+        if (!CatSleep2.sleep2)
         {
             if (MoveRight)
             {

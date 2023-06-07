@@ -27,7 +27,7 @@ public class CatSleep : MonoBehaviour
                 sleepduration = 3f;
                 GetComponent<Animator>().SetBool("Sleep", false);
                 GetComponent<CapsuleCollider2D>().enabled = true;
-                GetComponent<Rigidbody2D>().gravityScale = 1.8f;
+                GetComponent<Rigidbody2D>().gravityScale = 0f;
             }
         }
     }

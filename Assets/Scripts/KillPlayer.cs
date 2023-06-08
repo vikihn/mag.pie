@@ -8,6 +8,7 @@ public class KillPlayer : MonoBehaviour
 {
     public GameObject heart1, heart2, heart3, gameOver;
     public Transform respwanPoint;
+    public AudioSource killsound;
 
 
     int lifeplayer;
@@ -66,6 +67,12 @@ public class KillPlayer : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
+        //Kill Sound
+        if (other.gameObject.tag == "Enemy")
+        {
+            killsound.Play();
+        }
+
         if (other.gameObject.CompareTag("Enemy") && !CatSleep.sleep)
         {
             lifeplayer = lifeplayer - 1;
@@ -77,5 +84,8 @@ public class KillPlayer : MonoBehaviour
             //Scene currentScene = SceneManager.GetActiveScene();
             //SceneManager.LoadScene(currentScene.name);
         }
+
+        
     }
+
 }

@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class CollectibleController : MonoBehaviour
 {
-    private ScoreManager scoremanager;
+   private ScoreManager scoremanager;
 
     private void Start()
     {
         scoremanager = GameObject.Find("Canvas").GetComponent<ScoreManager>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+ private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {

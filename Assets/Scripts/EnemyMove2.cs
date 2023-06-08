@@ -29,7 +29,7 @@ public class EnemyMove2 : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D trig)
     {
-        if (trig.gameObject.CompareTag("turn"))
+        if (trig.gameObject.CompareTag("turn2"))
         {
             if (MoveRight)
             {

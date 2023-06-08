@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class ClickToShowItem : MonoBehaviour
@@ -7,6 +8,8 @@ public class ClickToShowItem : MonoBehaviour
     public GameObject targetItem; // Reference to the item that will appear
     public GameObject objectA;
     public GameObject objectB;
+
+    public AudioSource clickSound;
 
     private bool isObjectAActive = true;
 
@@ -16,8 +19,9 @@ public class ClickToShowItem : MonoBehaviour
         if (targetItem != null)
         {
             // Enable or instantiate the target item
-            targetItem.SetActive(true); // Uncomment this line if the target item is already in the scene
-            // Instantiate(targetItem, transform.position, Quaternion.identity); // Uncomment this line if the target item needs to be instantiated
+            targetItem.SetActive(true);
+
+            clickSound.Play();
         }
 
         SwitchObjects();

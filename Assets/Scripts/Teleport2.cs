@@ -7,6 +7,7 @@ public class Teleport2 : MonoBehaviour
 
     public Transform Player;
     public Transform Target;
+    public AudioSource teleportSound;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,7 @@ public class Teleport2 : MonoBehaviour
         {
             Debug.Log("Pressed");
             Player.transform.position = Target.transform.position;
+            teleportSound.Play();
         }
 
     }
